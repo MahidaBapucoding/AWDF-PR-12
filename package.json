@@ -1,0 +1,13 @@
+{
+  "name": "awdf-pr-12",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practical 12: CI/CD Pipeline with GitHub Actions",
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "test": "npm test --workspace=backend",
+    "lint": "npm run lint --workspace=backend"
+  }
+}
